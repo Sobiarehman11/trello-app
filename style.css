@@ -1,0 +1,57 @@
+
+.container{
+     background-color: rgb(133, 214, 176);
+     height: 100vh;
+}
+
+.trlo{
+    color:#092c18cc; 
+    text-align: center;
+}
+
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #6ad49f;
+}
+
+#board {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.column {
+    background-color: rgb(24, 141, 86);
+    border: 1px solid #22aa56cc;
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.head {
+    text-align: center;
+    color: #092c18cc;;
+}
+
+
+.tasks {
+    min-height: 100px;
+    margin-bottom: 10px;
+    
+}
+
+.task {
+    background-color:  rgb(26, 107, 67);
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+.input{
+    background-color:  #1e8043cc;
+    border: 1px solid #1a8342cc;
+    border-radius: 5px;
+}
+.task.dragging {
+    opacity: 0.5;
+}
